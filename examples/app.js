@@ -180,6 +180,7 @@ export default class App extends Component {
               />
               <Kronos
                 time={this.state.controlledDatetime}
+                minutesMode
                 onChangeDateTime={::this.onChangeControlled}
                 min={minDate}
                 max={maxDate}

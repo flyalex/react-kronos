@@ -414,6 +414,7 @@ class Kronos extends Component {
             validate={::this.validate}
             options={this.props.options}
             inputRect={this._input.getClientRects()[0]}
+            minutesMode={this.props.minutesMode}
           />
         }
       </div>
